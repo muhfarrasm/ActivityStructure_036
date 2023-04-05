@@ -39,7 +39,14 @@ int main()
         cin.ignore(1, '\n');
     }
 
-
+    for (int i = 0; i < 5; i++) {
+        cout << "\nNIM = " << mhs[i].NIM;
+        cout << "\nNama = " << mhs[i].Nama;
+        cout << "\nAlamat Desa = " << mhs[i].Alamat.Desa;
+        cout << "\nAlamat Kecamatan = " << mhs[i].Alamat.Kecamatan;
+        cout << "\nAlamat Kota = " << mhs[i].Alamat.Kota;
+        cout << "\nUmur = " << mhs[i].umur;
+    }
    
 
 }
