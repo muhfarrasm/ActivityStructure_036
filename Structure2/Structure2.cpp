@@ -28,18 +28,18 @@ int main()
     cout << "Alamat : ";
     cout << "\nMasukan Desa = ";
     cin >> mhs.Alamat.Desa;
-    cout << "\nMasukkan Kecamata = ";
+    cout << "\tMasukkan Kecamata = ";
     cin >> mhs.Alamat.Kecamatan;
-    cout << "\nMasukkan Kota = ";
+    cout << "\tMasukkan Kota = ";
     cin >> mhs.Alamat.Kota;
     cout << "Masukkan umur = ";
     cin >> mhs.umur;
 
     cout << "\nNIM = " << mhs.NIM;
     cout << "\nNama = " << mhs.Nama;
-    cout << "Alamat Desa = " << mhs.Alamat.Desa<<endl;
-    cout << "Alamat Kecamatan = " << mhs.Alamat.Kecamatan<<endl;
-    cout << "Alamat Kota = " << mhs.Alamat.Kota<<endl;
+    cout << "\nAlamat Desa = " << mhs.Alamat.Desa;
+    cout << "\nAlamat Kecamatan = " << mhs.Alamat.Kecamatan;
+    cout << "\nAlamat Kota = " << mhs.Alamat.Kota;
     cout << "\nUmur = " << mhs.umur;
 
 }
