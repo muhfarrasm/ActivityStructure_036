@@ -23,9 +23,9 @@ int main()
     cout << "Masukkan umur = ";
     cin >> mhs.umur;
 
-    cout << "NIM = "<< mhs.NIM;
-    cout << "Nama = " << mhs.Nama;
-    cout << "Alamat = "<< mhs.Alamat;
-    cout << "Umur = " << mhs.umur;
+    cout << "\nNIM = "<< mhs.NIM;
+    cout << "\nNama = " << mhs.Nama;
+    cout << "\nAlamat = "<< mhs.Alamat;
+    cout << "\nUmur = " << mhs.umur;
 
 }
