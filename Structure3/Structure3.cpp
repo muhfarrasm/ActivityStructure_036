@@ -29,12 +29,13 @@ int main()
         cout << "Masukkan Nama = ";
         cin.getline(mhs[i].Nama, 20);
         cout << "Alamat : ";
-        cout << "\nMasukan Desa = ";
+        cout << "\n\tMasukan Desa = ";
         cin.getline(mhs[i].Alamat.Desa, 20);
         cout << "\tMasukkan Kecamata = ";
         cin.getline(mhs[i].Alamat.Kecamatan, 20);
         cout << "\tMasukkan Kota = ";
         cin.getline(mhs[i].Alamat.Kota, 20);
+        cout << "Masukkan Umur = ";
         cin >> mhs[i].umur;
         cin.ignore(1, '\n');
     }
