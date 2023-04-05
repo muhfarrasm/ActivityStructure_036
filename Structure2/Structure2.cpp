@@ -3,7 +3,7 @@ using namespace std;
 
 struct DetailAlamat {
 	string Desa;
-	string kecamatan;
+	string Kecamatan;
 	string Kota;
 };
 
@@ -15,7 +15,6 @@ struct Mahasiswa
     int umur;
 
 };
-
 
 
 
