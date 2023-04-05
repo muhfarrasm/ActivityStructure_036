@@ -37,10 +37,9 @@ int main()
 
     cout << "\nNIM = " << mhs.NIM;
     cout << "\nNama = " << mhs.Nama;
-    cout << "\nAlamat Desa = " << mhs.Alamat.Desa;
-    cout << "\nAlamat Kecamatan = " << mhs.Alamat.Kecamatan;
-    cout << "\nAlamat Kota = " << mhs.Alamat.Kota;
-
+    cout << "Alamat Desa = " << mhs.Alamat.Desa<<endl;
+    cout << "Alamat Kecamatan = " << mhs.Alamat.Kecamatan<<endl;
+    cout << "Alamat Kota = " << mhs.Alamat.Kota<<endl;
     cout << "\nUmur = " << mhs.umur;
 
 }
